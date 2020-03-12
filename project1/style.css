@@ -1,0 +1,84 @@
+table, th, tr ,td {
+    background-color: rgb(208, 214, 206);
+    border: 3px solid black;
+    padding: 30px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 6                                                                        0px 70px;
+}
+
+div {
+    align-items: center;
+    padding: 30px;
+}
+
+body {
+    background-image: url("background.jpg");
+    padding: 0vmax;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: rgb(0, 0, 0);
+}
+
+a {
+    color: rgb(240, 233, 233);
+    text-decoration: none;
+}
+
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-sizing: content-box;
+    border-color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    
+}
+
+@keyframes anim1 {
+    0%   {background-color: rgb(255, 255, 255);}
+    25%  {background-color: rgb(101, 150, 147);}
+    50%  {background-color: rgb(73, 81, 114);}
+    75% {background-color: rgb(90, 92, 71);}
+    100%  {background-color: rgb(255, 255, 255);}
+  }
+
+.top {
+    background-color: rgb(255, 255, 255);
+    color:white;
+    padding:10px;
+    font-family: cursive;
+    font-weight: bolder ;
+    font-size: 25px;
+    animation-name: anim1 ;
+    animation-timing-function: linear;
+    animation-duration: 4s;  
+    animation-iteration-count: infinite;  
+    opacity: 0.5 ;
+}
+
+.weFindWallpaper {
+    align-items: center;
+    padding: 1px;
+    font-size: 40px ;
+    
+}
+
+.category {
+    color: white;
+}
+
+.recents {
+    color: white;
+    font-family: cursive;
+    padding-top: 70px;
+}
+
+.gallery{
+    width: 100%;
+    float: 05px;
+}
